@@ -500,20 +500,25 @@ body {
 
 /* Footer */
 .footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 25px 0;
+    text-align: center; /* Centra todo el contenido del footer */
+    padding: 20px;
+    background-color: #27384b; /* Color de fondo */
+    color: #fff; /* Color del texto */
 }
 
-.footer p {
-    margin-bottom: 5px;
-    font-size: 0.9rem;
+.social-icons {
+    margin-top: 10px; /* Espacio entre el texto y los íconos */
 }
 
-.footer p:last-child {
-    margin-bottom: 0;
-    opacity: 0.9;
+.social-icons a {
+    color: #fff; /* Color de los íconos */
+    font-size: 24px; /* Tamaño de los íconos */
+    margin: 0 10px; /* Espacio entre los íconos */
+    transition: color 0.3s ease; /* Efecto de transición para el hover */
+}
+
+.social-icons a:hover {
+    color: #a0a0a0; /* Color al pasar el mouse por encima */
 }
 
 /* Loading Animation */

@@ -15,7 +15,7 @@ const PERFUMES_DATABASE = [
         available: true,
         bestseller: true,
         prices: {
-            "5ml": 7.50,
+            "5ml": 8.00,
             "10ml": 14.00
         },
         notes: {
@@ -115,7 +115,6 @@ const PERFUMES_DATABASE = [
         }
     },
 ];
-
 // Variables globales
 let currentFilter = 'bestsellers';
 let perfumesData = [...PERFUMES_DATABASE];
