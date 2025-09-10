@@ -16,7 +16,7 @@ const PERFUMES_DATABASE = [
         bestseller: true,
         prices: {
             "5ml": 8.00,
-            "10ml": 14.00
+            "10ml": 15.00
         },
         notes: {
             top: "Vainilla Bourbon",
